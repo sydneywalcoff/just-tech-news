@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Post, User, Vote, Comment } = require('../../models');
 const { sequelize } = require('../../models/User');
 
-// get all users
+// get all posts
 router.get('/', (req, res) => {
     console.log('==================');
     Post.findAll({
