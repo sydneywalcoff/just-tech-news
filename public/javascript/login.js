@@ -21,7 +21,7 @@ async function signUpFormHandler(event) {
             alert(response.statusText);
         }
     }
-}
+};
 
 async function loginFormHandler(event){
     event.preventDefault();
@@ -44,7 +44,7 @@ async function loginFormHandler(event){
             alert(response.statusText);
         }
     }
-}
+};
 
 document.querySelector('.signup-form').addEventListener('submit', signUpFormHandler);
 document.querySelector('.login-form').addEventListener('submit', loginFormHandler);

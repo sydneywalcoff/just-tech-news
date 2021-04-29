@@ -29,7 +29,7 @@ router.get('/', (req, res) => {
     });
 });
 
-// get single user
+// get single post
 router.get('/:id', (req, res) => {
     Post.findOne({
         where: {
